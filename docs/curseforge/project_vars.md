@@ -4,10 +4,10 @@
 
 | Variable | Valor |
 |----------|-------|
-| `curseforge_project_id` | `PENDIENTE` (crear el proyecto en CurseForge) |
+| `curseforge_project_id` | `1679111` |
 | `mod_id` | `mystical_realms_resource_pack` |
 | `display_name` | `Mystical Realms Resource Pack` |
-| `summary` | `Server-side asset fixes for the Mystical Realms modpack (MC 1.21.1).` |
+| `summary` | `A server-synced companion resource pack for the Mystical Realms modpack that ships lightweight fixes for broken model, texture and sound assets in bundled mods, without editing the mods themselves.` |
 | Categoría (class Resource Packs) | `Data Packs` (no es un pack de resolución) |
 
 ## Tokens
@@ -35,26 +35,26 @@ minecraft/1.21.1/resourcepack/production
 ## Tag
 
 Formato: `<mc-version>-<version>`
-Ejemplo: `1.21.1-1.0.0`
+Ejemplo: `1.21.1-0.0.0-beta.1`
 
 ## Parámetros del upload
 
 | Campo | Valor | Notas |
 |-------|-------|-------|
-| `displayName` | `Mystical Realms Resource Pack (1.0.0)` | `display_name (version)` |
+| `displayName` | `Mystical Realms Resource Pack (0.0.0-beta.1)` | `display_name (version)` |
 | `changelog` | HTML (no Markdown) | `docs/curseforge/versions/<version>.md` |
 | `changelogType` | `html` | Obligatorio |
-| `releaseType` | `release` | Según el tipo de versión |
-| `gameVersions` | `[<gameVersionId de 1.21.1>]` | CurseForge usa el `gameVersionId` de Minecraft, no el pack format |
+| `releaseType` | `beta` | Según el tipo de versión |
+| `gameVersions` | `[11779]` | `gameVersionId` de Minecraft 1.21.1 (no el pack format) |
 
 > `gameVersions` usa el `gameVersionId` de Minecraft (de `GET /v1/minecraft/version`), **no** el pack
-> format 34. Reutilizar el id de `1.21.1` ya validado en otros repos de mods 1.21.1 de Stalking Dragons;
-> si la primera subida falla por game version inválida, confirmarlo contra el endpoint y corregir abajo.
+> format 34. `11779` = Minecraft 1.21.1, ya validado en `mystical_realms_data_pack` y demás repos 1.21.1
+> de Stalking Dragons.
 
 ## Estructura del changelog (HTML)
 
 ```html
-<h2>v1.0.0 - Initial release</h2>
+<h2>v0.0.0-beta.1 - Initial release</h2>
 
 <h3>Added</h3>
 <ul>
@@ -65,7 +65,7 @@ illegal <code>-90</code> element rotation by the mod's own corrected sibling mod
 
 <hr>
 
-<p><strong>ZIP</strong>: <code>MysticalRealms_ResourcePack-1.0.0.zip</code></p>
+<p><strong>ZIP</strong>: <code>MysticalRealms_ResourcePack-0.0.0-beta.1.zip</code></p>
 ```
 
 ## Variables parseables (para scripts)
@@ -74,10 +74,10 @@ El script `scripts/curseforge-upload.ps1` lee estas líneas (`key = value`). Rel
 proyecto:
 
 ```
-project_id = PENDIENTE
-api_token = PENDIENTE
-game_versions = PENDIENTE
-release_type = release
+project_id = 1679111
+api_token = ee776b0a-ee95-4850-b554-06be02a8657f
+game_versions = 11779
+release_type = beta
 ```
 
 ## Flujo completo
