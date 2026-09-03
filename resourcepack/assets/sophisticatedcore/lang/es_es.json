@@ -1,0 +1,17 @@
+{
+  "item.sophisticatedcore.stack_upgrade_conversion.tooltip": "Clic derecho en una Mejora de Pila instalada para convertirla",
+  "gui.sophisticatedcore.buttons.browse_results": "Abrir lista de resultados ampliada con búsqueda",
+  "gui.sophisticatedcore.settings.buttons.z_offset": "Profundidad",
+  "gui.sophisticatedcore.settings.buttons.z_offset_detail": "Fuera = Clic Izquierdo\nDentro = Clic Derecho",
+  "sophisticatedcore.configuration.client": "Cliente",
+  "sophisticatedcore.configuration.common": "Común",
+  "sophisticatedcore.configuration.sortButtonsPosition": "Posición de Botones de Ordenación",
+  "sophisticatedcore.configuration.playButtonSound": "Reproducir Sonido de Botón",
+  "sophisticatedcore.configuration.mouseTweaksScrollEnabled": "Control de Desplazamiento de Mouse Tweaks",
+  "sophisticatedcore.configuration.enabledItems": "Objetos de Mod Habilitados",
+  "sophisticatedcore.configuration.enabledItems.tooltip": "Prellenado con todos los objetos compatibles. Cambia |true a |false para desactivar uno.\nFormato: item_id|true_or_false\nEjemplo: sophisticatedbackpacks:smelting_upgrade|true",
+  "sophisticatedcore.configuration.sortButtonsPosition.title_line_right": "Línea de Título a la Derecha",
+  "sophisticatedcore.configuration.sortButtonsPosition.below_upgrades": "Debajo de las Mejoras",
+  "sophisticatedcore.configuration.sortButtonsPosition.below_upgrade_tabs": "Debajo de las Pestañas de Mejoras",
+  "sophisticatedcore.configuration.sortButtonsPosition.hidden": "Oculto"
+}

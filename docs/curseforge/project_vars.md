@@ -5,10 +5,17 @@
 | Variable | Valor |
 |----------|-------|
 | `curseforge_project_id` | `1679111` |
-| `mod_id` | `mystical_realms_resource_pack` |
-| `display_name` | `Mystical Realms Resource Pack` |
-| `summary` | `A server-synced companion resource pack for the Mystical Realms modpack that ships lightweight fixes for broken model, texture and sound assets in bundled mods, without editing the mods themselves.` |
+| `slug` | `mystical-realms-translation-fixes` |
+| `mod_id` | `mystical_realms_translation_fixes` |
+| `display_name` | `Mystical Realms Translation & Fixes` |
+| `summary` | `A server-synced companion resource pack for the Mystical Realms modpack: Spanish (es_es) translations for mods that ship no or partial Spanish locale, plus lightweight fixes for broken model, texture and sound assets in bundled mods — without editing the mods themselves.` |
 | Categoría (class Resource Packs) | `Data Packs` (no es un pack de resolución) |
+
+> **Renombrado 2026-09-03**: el proyecto pasó de `Mystical Realms Resource Pack` /
+> `mystical-realms-reousrce-pack` a `Mystical Realms Translation & Fixes` /
+> `mystical-realms-translation-fixes` por políticas de CurseForge (un "resource pack" en CF implica
+> pack de texturas/resolución). El `project_id` no cambia. Remote GitLab nuevo:
+> `https://gitlab.com/stalking-dragons/minecraft/mystical-realms-translation-fixes.git`.
 
 ## Tokens
 
@@ -35,13 +42,13 @@ minecraft/1.21.1/resourcepack/production
 ## Tag
 
 Formato: `<mc-version>-<version>`
-Ejemplo: `1.21.1-0.0.0-beta.1`
+Ejemplo: `1.21.1-0.1.0-beta.1`
 
 ## Parámetros del upload
 
 | Campo | Valor | Notas |
 |-------|-------|-------|
-| `displayName` | `Mystical Realms Resource Pack (0.0.0-beta.1)` | `display_name (version)` |
+| `displayName` | `Mystical Realms Translation & Fixes (0.1.0-beta.1)` | `display_name (version)` |
 | `changelog` | HTML (no Markdown) | `docs/curseforge/versions/<version>.md` |
 | `changelogType` | `html` | Obligatorio |
 | `releaseType` | `beta` | Según el tipo de versión |
@@ -54,18 +61,17 @@ Ejemplo: `1.21.1-0.0.0-beta.1`
 ## Estructura del changelog (HTML)
 
 ```html
-<h2>v0.0.0-beta.1 - Initial release</h2>
+<h2>v0.1.0-beta.1</h2>
 
 <h3>Added</h3>
 <ul>
-<li><strong>Butchery <code>ravager_carcass</code> fix</strong>: replaces an orphan model file with an
-illegal <code>-90</code> element rotation by the mod's own corrected sibling model. Silences a startup
-<code>ERROR</code> from MC's bulk model loader. No in-game visual change.</li>
+<li><strong>Spanish (es_es) translations</strong> for 101 mod namespaces (~12.5k keys) that shipped no
+Spanish locale or an incomplete one. Merged on top of each mod's own lang files.</li>
 </ul>
 
 <hr>
 
-<p><strong>ZIP</strong>: <code>MysticalRealms_ResourcePack-0.0.0-beta.1.zip</code></p>
+<p><strong>ZIP</strong>: <code>MysticalRealms_TranslationFixes-0.1.0-beta.1.zip</code></p>
 ```
 
 ## Variables parseables (para scripts)

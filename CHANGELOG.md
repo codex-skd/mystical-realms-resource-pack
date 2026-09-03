@@ -1,9 +1,48 @@
 # Changelog
 
-Todos los cambios notables de Mystical Realms Resource Pack se documentan en este archivo.
+Todos los cambios notables de Mystical Realms Translation & Fixes se documentan en este archivo.
 
 El formato sigue [Keep a Changelog](https://keepachangelog.com/en/1.1.0/)
 y el proyecto adhiere a [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+## [0.1.0-beta.1] - 2026-09-03
+
+### Cambiado
+
+- **Proyecto renombrado** de *Mystical Realms Resource Pack* a **Mystical Realms Translation & Fixes**
+  (slug `mystical-realms-translation-fixes`) por políticas de CurseForge. El `project_id` de CurseForge
+  no cambia. Remote GitLab nuevo:
+  `https://gitlab.com/stalking-dragons/minecraft/mystical-realms-translation-fixes.git`.
+- Nombre del ZIP: `MysticalRealms_ResourcePack-*.zip` → `MysticalRealms_TranslationFixes-*.zip`.
+- `pack.mcmeta`, `README.md` y la descripción de CurseForge actualizados para reflejar el nuevo alcance
+  (traducciones + fixes).
+
+### Añadido
+
+- **Traducciones al español (`es_es`)** para **101 namespaces de mods** (~12.515 claves), tomando como
+  origen el `en_us.json` de cada mod. Minecraft fusiona estos ficheros `lang` sobre lo que cada mod ya
+  trae, así que en los mods con `es_es` parcial solo se añaden las claves que faltaban.
+  - **59 mods sin ninguna traducción española previa**: everycomp, butchery, mcwroofs, reliquary,
+    sodium-extra (rubidium-extra), xaeroworldmap, ars_additions, toms_storage, bookshelf, modernfix,
+    spell_power, bclib, caravans, farmers_sandwiches, aces_spell_utils, morevillagers, irons_lib,
+    inventoryessentials, mysticalautomation, notenoughcrashes, craftingtweaks, arssophisticatedcompat,
+    balm, aquaculturedelight, player_activity_view, wishfulrecipes, carry_mechanics, teleport_animation,
+    worldweaver (wover / wover-generator / wover-ui), horde_hoard, justenoughbreeding, info_tab,
+    better_party_x_xaeros_world_map, farmer_delight_pizza_lovers, ars_creo, cucumber, just_in_nether,
+    better-villager-animations, moogs_structures, betterendisland, zeta, idas, integrated_stronghold,
+    skd_menu, fusion, mes, mns, data_miner, mowzies_cataclysm, lionfishapi, common_toolkit,
+    irons_patreon_lib, terrablender, dangerous, justenoughprofessions, supermartijn642corelib,
+    visualworkbench.
+  - **42 mods con `es_es` incompleto, completados** (nº de claves añadidas): supplementaries (+1055),
+    ars_nouveau (+921), xaerominimap (+522), irons_spellbooks (+475), betterend (+367), quark (+324),
+    dawnoftimebuilder (+275), waystones (+263), moonlight (+239), farmersdelight (+193), jei (+188),
+    create (+178), armoroftheages (+161), enchdesc (+151), sophisticatedbackpacks (+149),
+    deeperdarker (+136), biomesoplenty (+119), jade (+105), tombstone (+72), embeddium (+71),
+    L_Ender's Cataclysm + integrated_cataclysm (+61), guardvillagers (+59), obscure_tooltips (+41),
+    mowziesmobs (+36), aquamirae (+31), aquaculture (+30), bettercombat (+20), xaerobetterpvp (+17),
+    relics (+15), sophisticatedcore (+15), vellumli (+13), regalia_slots_api (+12), iris (neoculus) (+11),
+    configured (+10), mcwbridges (+6), workhand_tools (+3), ascendant_spawners (+2), ars_elemental (+1),
+    jeresources (+1), mysticalagriculture (+1), naturescompass (+1), villagertradingplus (+1).
 
 ## [0.0.0-beta.1] - 2026-09-02
 
