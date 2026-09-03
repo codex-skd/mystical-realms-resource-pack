@@ -5,6 +5,35 @@ Todos los cambios notables de Mystical Realms Translation & Fixes se documentan 
 El formato sigue [Keep a Changelog](https://keepachangelog.com/en/1.1.0/)
 y el proyecto adhiere a [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.1.0-beta.4] - 2026-09-04
+
+### Añadido
+
+- **Traducción al español (`es_es`) de las guías Patchouli con texto incrustado** — 188 ficheros
+  JSON, ~779 cadenas. Estos libros no usan claves de idioma (`i18n`), así que la capa `lang` del
+  pack no los cubría y salían en inglés en la partida aunque el mod trajera `es_es`. Se inyectan
+  como carpeta `es_es/` paralela a la `en_us/` del mod (Patchouli la prioriza; *fallback* a inglés
+  fichero a fichero). Todos los códigos de formato de Patchouli (`$(br)`, `$(l:...)`, colores
+  `$(#...)`, `$(playername)`…) se conservan literalmente; no se tocan `type`/`icon`/`recipe` ni
+  las *resource locations*.
+  - `butchery` · `butchers_guide` — 52 ficheros (47 entradas + 5 categorías). Terminología alineada
+    con `assets/butchery/lang/es_es.json` (p. ej. *cleaver* → «Cuchillo de forjar», *skinning knife*
+    → «Cuchillo de despiece», *blood grate* → «Rejilla de sangre»).
+  - `apotheosis` · `apoth_chronicle` — 126 ficheros (107 entradas + 19 categorías).
+  - `irons_spellbooks` · `iss_guide_book` — 10 ficheros (9 entradas + 1 categoría).
+
+### Notas
+
+- **No traducible desde un resource pack**: el título del libro y el `landing_text` (página de
+  bienvenida) de `butchery` e `irons_spellbooks` viven en `book.json` (zona de *data pack*) y no
+  usan `i18n`; quedan en inglés. El de `apotheosis` sí sale en español (usa clave de idioma, ya
+  traducida en el `es_es` oficial del mod).
+- `BetterEnd` (`guidebook`), `ars_nouveau`/`ars_elemental` (`worn_notebook`) y
+  `mysticalagriculture` (`guide`) **no** se incluyen: el primero trae carpeta `es_es/` propia en
+  el jar; los otros dos usan claves `i18n` ya traducidas en sus locales oficiales.
+- Traducción hecha con OpenCode (MiMo-V2.5); revisión de estructura, tokens y cadenas restantes
+  con script propio.
+
 ## [0.1.0-beta.3] - 2026-09-03
 
 ### Añadido
