@@ -5,6 +5,24 @@ Todos los cambios notables de Mystical Realms Translation & Fixes se documentan 
 El formato sigue [Keep a Changelog](https://keepachangelog.com/en/1.1.0/)
 y el proyecto adhiere a [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.1.0-beta.2] - 2026-09-03
+
+### Añadido
+
+- **Fixes de guías Patchouli** — sobrescribe 3 entradas de libro de mods incluidos que
+  referencian recetas inexistentes (spam `Recipe X not found` en el log del cliente, la
+  página del libro salía sin la receta):
+  - `butchery` · `butchers_guide/blocks/butchers_table` — `butchery:crimnsonbutcherstablerecipe`
+    → `butchery:crimsonbutcherstablerecipe` (errata en el propio libro); `jungle:acaciabutcherstablerecipe`
+    → `butchery:junglebutcherstablerecipe` (namespace y nombre erróneos).
+  - `butchery` · `butchers_guide/resources/dragon_scale` — la página era `patchouli:smithing`
+    pero `dragonscaleingotrecipe` / `dragonscaleblockrecipe` son `minecraft:crafting_shaped`;
+    cambiada a `patchouli:crafting`.
+  - `irons_spellbooks` · `iss_guide_book/progression/late_game` — `irons_spellbooks:cryomancer_helmet`
+    / `pyromancer_helmet` → `..._helmet_crafting` (los ids reales llevan sufijo `_crafting`).
+- `apotheosis` · `apoth_chronicle` referencia `minecraft:bookshelf` (receta vanilla válida y
+  crafteable in-game): **no se toca**, es ruido de orden de carga de Patchouli, no un fallo del libro.
+
 ## [0.1.0-beta.1] - 2026-09-03
 
 ### Cambiado
