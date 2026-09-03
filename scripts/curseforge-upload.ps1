@@ -1,4 +1,4 @@
-# CurseForge Upload Script — Resource Pack (Mystical Realms Resource Pack)
+# CurseForge Upload Script — Mystical Realms Translation & Fixes
 # Adapted from enchantventure-pack/scripts/curseforge-upload.ps1: reads version.txt,
 # uploads the ZIP from build/ as application/zip with resource pack game versions.
 #
@@ -8,7 +8,7 @@
 # Requires:
 #   - docs/curseforge/project_vars.md with: project_id, api_token, game_versions, release_type
 #   - version.txt with the current version
-#   - build/MysticalRealms_ResourcePack-<version>.zip (run python build_pack.py first)
+#   - build/MysticalRealms_TranslationFixes-<version>.zip (run python build_pack.py first)
 #   - docs/curseforge/versions/<version>.md with release notes in HTML
 
 $scriptPath = Split-Path -Parent $MyInvocation.MyCommand.Path
@@ -35,7 +35,7 @@ $releaseType = Get-VarFromMd $varsFile "release_type"
 if (-not $releaseType) { $releaseType = "beta" }
 
 $modVersion = (Get-Content "$repoPath/version.txt").Trim()
-$modName = "Mystical Realms Resource Pack"
+$modName = "Mystical Realms Translation & Fixes"
 
 # @(...) forces an array so ConvertTo-Json emits a JSON array (CurseForge rejects a bare int).
 # game_versions must be CurseForge numeric version IDs (e.g. the id for Minecraft 1.21.1),
@@ -43,7 +43,7 @@ $modName = "Mystical Realms Resource Pack"
 $gameVersions = @($gameVersionsStr -split "," | ForEach-Object { $_.Trim() } | Where-Object { $_ -ne "" } | ForEach-Object { [int]$_ })
 
 # Build paths
-$zipName = "MysticalRealms_ResourcePack-${modVersion}.zip"
+$zipName = "MysticalRealms_TranslationFixes-${modVersion}.zip"
 $zipPath = "$repoPath/build/$zipName"
 $changelogPath = "$repoPath/docs/curseforge/versions/${modVersion}.md"
 

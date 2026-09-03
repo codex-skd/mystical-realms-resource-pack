@@ -1,14 +1,29 @@
-# Mystical Realms Resource Pack
+# Mystical Realms Translation & Fixes
 
-Server-side resource pack for the **Mystical Realms** modpack (Minecraft **1.21.1**, NeoForge 21.1.249).
+Companion resource pack for the **Mystical Realms** modpack (Minecraft **1.21.1**, NeoForge 21.1.249).
 
-It ships small asset fixes for bundled mods **without touching the mods themselves**. It is meant to be:
+It ships two things for bundled mods **without touching the mods themselves**:
+
+1. **Spanish (`es_es`) translations** for mods that ship no Spanish locale, or an incomplete one — so
+   item / block / entity names, tooltips and GUI text show up in Spanish instead of English or raw
+   translation keys. Minecraft merges these `lang` files on top of whatever each mod already provides.
+2. **Small asset fixes** for broken model / texture / sound files that make Minecraft log errors.
+
+It is meant to be:
 
 - distributed inside the CurseForge modpack (loads client-side), **and**
 - served from the game server via `resource-pack` + `resource-pack-sha1` in `server.properties`
   (auto-downloaded by every client on join).
 
 ## Contents
+
+### Spanish translations (`assets/<mod>/lang/es_es.json`)
+
+101 mod namespaces, ~12.5k keys. For mods that already ship a partial `es_es`, only the missing keys
+are added (Minecraft merges lang files across packs). Source text is each mod's own `en_us.json`.
+See `CHANGELOG.md` for the full mod list.
+
+### Asset fixes
 
 | Fix | Path | Why |
 |-----|------|-----|
@@ -17,7 +32,7 @@ It ships small asset fixes for bundled mods **without touching the mods themselv
 ## Requirements
 
 - Minecraft **1.21.1** (resource pack format **34**)
-- The Mystical Realms modpack (or any subset of the mods it patches)
+- The Mystical Realms modpack (or any subset of the mods it patches / translates)
 
 ## Build
 
@@ -26,7 +41,7 @@ folder with `pack.mcmeta` at the root (loads directly):
 
 ```bash
 python build_pack.py
-# → build/MysticalRealms_ResourcePack-<version>.zip
+# → build/MysticalRealms_TranslationFixes-<version>.zip
 # also prints the SHA1 for server.properties (resource-pack-sha1=...)
 ```
 
@@ -35,7 +50,7 @@ Version is read from `version.txt`.
 ## Serving from the game server
 
 1. `python build_pack.py`
-2. Upload `build/MysticalRealms_ResourcePack-<version>.zip` somewhere with a stable direct URL
+2. Upload `build/MysticalRealms_TranslationFixes-<version>.zip` somewhere with a stable direct URL
    (GitLab Releases / Pages, or any static host).
 3. In `server.properties`:
    ```
@@ -48,6 +63,8 @@ Version is read from `version.txt`.
 ## CurseForge
 
 `scripts/curseforge-upload.ps1` uploads the built ZIP. Fill `docs/curseforge/project_vars.md` first.
+
+Project slug: `mystical-realms-translation-fixes`.
 
 ## Branch layout
 
