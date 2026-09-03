@@ -5,6 +5,30 @@ Todos los cambios notables de Mystical Realms Translation & Fixes se documentan 
 El formato sigue [Keep a Changelog](https://keepachangelog.com/en/1.1.0/)
 y el proyecto adhiere a [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.1.0-beta.3] - 2026-09-03
+
+### Añadido
+
+- **Traducciones al español (`es_es`) para 3 namespaces más** (~520 claves), tomando como origen el
+  `en_us.json` de cada mod. Cierra los huecos de traducción reales detectados en el snapshot del
+  modpack v5.134.4 (`docs/SNAPSHOT_MODPACK_5.134.4.md`):
+  - `apothic_enchanting` (Apothic Enchanting 1.6.2) — 425 claves. Nombres de bloques (estanterías
+    Hellshelf/Seashelf/Deepshelf/Endshelf…), GUI de la mesa de encantamientos, tooltips y descripciones.
+    Los nombres propios del sistema de Apotheosis (`Eterna`, `Quanta`, `Arcana`) y los numerales
+    romanos de nivel se mantienen sin traducir.
+  - `apothic_spawners` (Apothic Spawners 1.4.0) — 89 claves. Estadísticas de generador, tooltips y el
+    encantamiento *Capturing*.
+  - `placebo` (Placebo 9.9.2) — 6 claves (comandos y toggles cosméticos de mecenas).
+- Total del pack: **104 namespaces**, ~13k claves.
+
+### Notas
+
+- El snapshot `docs/SNAPSHOT_MODPACK_5.134.4.md` marcaba como huecos otros mods que tras verificación
+  jar a jar **no lo son**: `embeddium_extra` empaqueta su texto bajo el namespace `sodium-extra` (ya
+  traducido); `integrated_cataclysm`, `integrated_villages` y `waystone_towers` traen `en_us.json`
+  vacío o ningún `lang/`; `attributefix` y `utility_nexus_fixes` no tienen archivos de idioma. Sin
+  cadenas que traducir en ninguno.
+
 ## [0.1.0-beta.2] - 2026-09-03
 
 ### Añadido
