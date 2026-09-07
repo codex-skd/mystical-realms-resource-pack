@@ -5,6 +5,27 @@ Todos los cambios notables de Mystical Realms Translation & Fixes se documentan 
 El formato sigue [Keep a Changelog](https://keepachangelog.com/en/1.1.0/)
 y el proyecto adhiere a [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.1.0-beta.23] - 2026-09-07
+
+### Corregido
+
+- **Repaso de calidad del `es_es` de beta.1 — lote 18: Biomes O' Plenty** (`biomesoplenty`, 119
+  claves). El MT estaba bien en su mayoría; 20 cadenas tocadas.
+  - **Término vanilla:** *End* estaba como «Fin» en los nombres de bioma y bloques temáticos del
+    End — «Corrupción del Fin» → «Corrupción del End», «Arrecife del Fin» → «Arrecife del End»,
+    «Floración del Fin» → «Floración del End», «Piedra del Fin algal» → «Piedra del End algal».
+    *End Wilds* → «Tierras salvajes del End».
+  - **Término vanilla:** *Sign* estaba como «Señal» en los bloques de cartel empíreo / de arce / de
+    pino → «Cartel» (es_es vanilla), con el género del adjetivo y *Wall Sign* → «Cartel de pared»
+    corregidos para concordar.
+
+### Notas
+
+- Claves y todos los códigos `§` intactos. El resto de nombres de bloque del set de madera ya
+  estaban bien (la concordancia «empíreo/empírea» era correcta). Nombre de disco de música
+  conservado.
+- Verificado con script: integridad de claves, placeholders, Title Case residual.
+
 ## [0.1.0-beta.22] - 2026-09-07
 
 ### Corregido
