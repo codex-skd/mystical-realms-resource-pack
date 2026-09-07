@@ -5,6 +5,23 @@ Todos los cambios notables de Mystical Realms Translation & Fixes se documentan 
 El formato sigue [Keep a Changelog](https://keepachangelog.com/en/1.1.0/)
 y el proyecto adhiere a [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.1.0-beta.33] - 2026-09-08
+
+### Corregido
+
+- **Repaso de calidad del `es_es` de beta.1 — lote 28: Tom's Simple Storage** (`toms_storage`, 217
+  claves, 119 reescritas).
+  - **Title Case inglés eliminado** de los nombres de bloque / objeto y sus tooltips — eran 96 de
+    las cadenas («Conector de Inventario» → «Conector de inventario», «Terminal de Almacenamiento» →
+    «Terminal de almacenamiento», «Tolva Básica de Inventario» → «Tolva básica de inventario»,
+    «Configurando Bloque: %s» → «Configurando bloque: %s»).
+
+### Notas
+
+- Claves y todos los `%s` intactos. El nombre del mod *Tom's Simple Storage* conservado.
+- Normalizado por script; integridad de claves, placeholders y Title Case residual verificados con
+  script.
+
 ## [0.1.0-beta.32] - 2026-09-08
 
 ### Corregido
