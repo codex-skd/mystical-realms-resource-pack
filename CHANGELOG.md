@@ -5,6 +5,25 @@ Todos los cambios notables de Mystical Realms Translation & Fixes se documentan 
 El formato sigue [Keep a Changelog](https://keepachangelog.com/en/1.1.0/)
 y el proyecto adhiere a [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.1.0-beta.35] - 2026-09-08
+
+### Corregido
+
+- **Repaso de calidad del `es_es` de beta.1 — lote 30: Guard Villagers** (`guardvillagers`, 59
+  cadenas de config, 32 reescritas).
+  - **Tildes restauradas en todo el archivo** — la config entera las había perdido: «clerigos» →
+    «clérigos», «heroe» → «héroe», «reputacion» → «reputación», «funcion» → «función»,
+    «conversion / reparacion / curacion», «minima», «dia», «Angulo», «bebes», «estan», «hara»,
+    «Que tan» → «Qué tan».
+  - **Signos de apertura `¿` añadidos** a las preguntas sí/no de config que solo tenían el `?` de
+    cierre.
+  - **Illagers:** «Illagers» en minúscula a media frase.
+
+### Notas
+
+- Claves y todos los `%s` intactos.
+- Arreglado por script; verificado con script (0 palabras comunes sin tilde restantes).
+
 ## [0.1.0-beta.34] - 2026-09-08
 
 ### Corregido
