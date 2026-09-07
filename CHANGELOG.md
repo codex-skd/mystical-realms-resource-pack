@@ -5,6 +5,32 @@ Todos los cambios notables de Mystical Realms Translation & Fixes se documentan 
 El formato sigue [Keep a Changelog](https://keepachangelog.com/en/1.1.0/)
 y el proyecto adhiere a [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.1.0-beta.9] - 2026-09-07
+
+### Corregido
+
+- **Repaso de calidad del `es_es` de beta.1 — lote 4: Supplementaries** (`supplementaries`, 1055
+  claves). El MT estaba bien en general; 64 cadenas arregladas.
+  - **Illagers:** «pillager / pillagers» sin traducir → «saqueador / saqueadores» (opciones de IA
+    y sus descripciones).
+  - **Términos vanilla:** *blackstone* / *deepslate* → «piedra negra» / «pizarra profunda»;
+    *The End* «el Fin» → «el End»; colores a vanilla («púrpura» → «morado», «verde lima» → «lima»),
+    incluidas las 16 banderas Carga de dragón («Dragón negro» → «Carga de dragón negro», acorde con
+    el nombre vanilla de las banderas).
+  - **Capitalización:** minúscula/mayúscula de frase restaurada donde la descripción empieza tras
+    salto de línea o `¿`. Etiqueta de pestaña unificada a «Pestaña de creativo».
+  - **MT erróneo o forzado:** «Palo de palo» → «Mástil»; «Lluvia lava ceniza» → «La lluvia lava la
+    ceniza»; «caer en libre» → «caída libre»; «Sopla burbujas» → «Soplador de burbujas»;
+    preposiciones que faltaban en los nombres de barco/balsa con cañón; algún arreglo de subjuntivo
+    y concordancia; la clave de configuración de broma traducida.
+
+### Notas
+
+- Claves y todos los `%s` / `%d` / `\n` intactos; 991 cadenas ya estaban bien.
+- Pasada en tres trozos (config x2, resto) con OpenCode (MiMo-V2.5) contra `docs/GLOSARIO_ES.md` y
+  el `es_es` vanilla 1.21.1; integridad de claves, placeholders y restos en inglés verificados con
+  script tras el merge.
+
 ## [0.1.0-beta.8] - 2026-09-07
 
 ### Corregido
