@@ -5,6 +5,33 @@ Todos los cambios notables de Mystical Realms Translation & Fixes se documentan 
 El formato sigue [Keep a Changelog](https://keepachangelog.com/en/1.1.0/)
 y el proyecto adhiere a [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.1.0-beta.10] - 2026-09-07
+
+### Corregido
+
+- **Repaso de calidad del `es_es` de beta.1 — lote 5: Ars Nouveau** (`ars_nouveau`, 921 claves).
+  255 cadenas arregladas; el grueso es el selector de sonidos/partículas.
+  - **Etiquetas de sonido y partícula (219 cadenas) reescritas.** El MT había producido ensalada
+    literal para la config de sonidos/partículas de Ars Nouveau («Bloque de Amatista Romper»,
+    «Harified de Hueso Usar», «Popped de Carga Sculk»). Ahora son frases naturales con el orden de
+    palabras correcto («Romper bloque de amatista», «Usar harina de huesos», «Estallido de carga de
+    sculk»), nombres de mob vanilla y minúscula de frase.
+  - **Terminología (glosario §2.2):** *Archwood* estaba como «Madera Arcana» / «Bosque Arcano» en
+    bloques, objetos y el libro guía → se mantiene *Archwood* / «bosque de Archwood».
+  - **Términos vanilla:** *Brewing Stand* sin traducir en dos alias → «Soporte para pociones»;
+    «Toque de Seda» → «Toque de seda» en ~22 descripciones de aumento.
+  - Menores: «Conversión Alakarkinos» → «Conversión de Alakarkinos»; «Hacia la LUNA» → «Hacia la
+    luna»; algún arreglo de mayúscula a media frase.
+
+### Notas
+
+- Claves y todos los `%s` intactos; las descripciones de aumento y casi todo el texto de tomos y
+  páginas ya estaban bien. La capitalización de los *nombres* de bloque/objeto se deja acorde al
+  estilo del propio `es_es` de Ars Nouveau (que los pone en Title Case).
+- Pasada en tres trozos (sonido/partícula, descripciones de aumento, tomos y varios) con OpenCode
+  (MiMo-V2.5) contra `docs/GLOSARIO_ES.md` y el `es_es` vanilla 1.21.1; integridad de claves y
+  placeholders verificados con script tras el merge.
+
 ## [0.1.0-beta.9] - 2026-09-07
 
 ### Corregido
