@@ -1,6 +1,6 @@
 {
   "gui.dawnoftimebuilder.chinese": "Chino",
-  "item.dawnoftimebuilder.dawn_of_time": "Amanecer del Tiempo",
+  "item.dawnoftimebuilder.dawn_of_time": "Dawn of Time",
   "item.dawnoftimebuilder.german_emblem": "Emblema germánico",
   "item.dawnoftimebuilder.japanese_emblem": "Emblema japonés",
   "item.dawnoftimebuilder.roman_emblem": "Emblema romano",
@@ -240,8 +240,8 @@
   "tooltip.dawnoftimebuilder.subtab.puuc": "Conjunto Puuc",
   "tooltip.dawnoftimebuilder.subtab.plastered": "Conjunto revocado",
   "tooltip.dawnoftimebuilder.subtab.painted": "Conjunto pintado",
-  "advancement.dawnoftimebuilder.root.title": "Amanecer del Tiempo",
-  "advancement.dawnoftimebuilder.root.description": "Recopila, fabrica y explora los bloques de Amanecer del Tiempo.",
+  "advancement.dawnoftimebuilder.root.title": "Dawn of Time",
+  "advancement.dawnoftimebuilder.root.description": "Recopila, fabrica y explora los bloques de Dawn of Time.",
   "advancement.dawnoftimebuilder.general.have_a_seat.title": "Toma asiento",
   "advancement.dawnoftimebuilder.general.have_a_seat.description": "Cada silla, cada mesa, cada cojín. La comodidad es una forma de arte.",
   "advancement.dawnoftimebuilder.general.tile_lover.title": "Amante del azulejo",
