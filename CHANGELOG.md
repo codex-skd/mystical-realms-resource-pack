@@ -5,6 +5,27 @@ Todos los cambios notables de Mystical Realms Translation & Fixes se documentan 
 El formato sigue [Keep a Changelog](https://keepachangelog.com/en/1.1.0/)
 y el proyecto adhiere a [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.1.0-beta.18] - 2026-09-07
+
+### Corregido
+
+- **Repaso de calidad del `es_es` de beta.1 — lote 13: Xaero's Minimap** (`xaerominimap`, 522
+  claves). Ya estaba bien; solo 35 cadenas tocadas.
+  - **Término de waypoint unificado:** el MT mezclaba «punto de referencia» (60×) con la
+    abreviatura «PxR» (27×). Todas las «PxR» expandidas a «punto(s) de referencia», con el plural
+    corregido donde la abreviatura era plural.
+  - **Término de Waystones (glosario):** «piedra(s) de camino» → «Waystone(s)» en las opciones de
+    auto-mostrado de la compat con Waystones y en el nombre por defecto de waypoint.
+  - **Title Case:** «Eliminar Mundo/Servidor» → «Eliminar mundo/servidor»; «Rastreado (ej.
+    Grupo/Aliados)» → «Rastreado (ej. grupo/aliados)».
+
+### Notas
+
+- Claves y todos los `%1$s` / código `§` / `\n` intactos. El resto de la UI de ajustes ya estaba
+  en español de España natural y se dejó sin tocar.
+- Verificado con script: integridad de claves, placeholders, consistencia de términos, Title Case
+  residual.
+
 ## [0.1.0-beta.17] - 2026-09-07
 
 ### Corregido
