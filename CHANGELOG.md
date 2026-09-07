@@ -5,6 +5,26 @@ Todos los cambios notables de Mystical Realms Translation & Fixes se documentan 
 El formato sigue [Keep a Changelog](https://keepachangelog.com/en/1.1.0/)
 y el proyecto adhiere a [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.1.0-beta.19] - 2026-09-07
+
+### Corregido
+
+- **Repaso de calidad del `es_es` de beta.1 — lote 14: Xaero's World Map** (`xaeroworldmap`, 317
+  claves). Como el minimapa, ya estaba bien; solo 20 cadenas tocadas.
+  - **Término de waypoint unificado:** el MT mezclaba «punto de referencia» (28×) con la abreviatura
+    «PxR» (16×). Todas las «PxR» expandidas, con el plural corregido donde hacía falta («fondos de
+    puntos de referencia», «puntos de referencia locales»).
+  - **Title Case:** «Abrir Mapa del Mundo» → «Abrir mapa del mundo»; «Ajustes del Mapa del Mundo de
+    Xaero» → «Ajustes del mapa del mundo de Xaero»; «(Teletransporte) Deshabilitado» →
+    «(Teletransporte) deshabilitado».
+
+### Notas
+
+- Claves y todos los `%s` / `%1$d` / código `§` / `\n` intactos. El resto de la UI ya estaba en
+  español de España natural.
+- Verificado con script: integridad de claves, placeholders, consistencia de términos, Title Case
+  residual.
+
 ## [0.1.0-beta.18] - 2026-09-07
 
 ### Corregido
