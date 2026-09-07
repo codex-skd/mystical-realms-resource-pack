@@ -5,6 +5,21 @@ Todos los cambios notables de Mystical Realms Translation & Fixes se documentan 
 El formato sigue [Keep a Changelog](https://keepachangelog.com/en/1.1.0/)
 y el proyecto adhiere a [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.1.0-beta.20] - 2026-09-07
+
+### Corregido
+
+- **Repaso de calidad del `es_es` de beta.1 — lote 15: Xaero's Better PvP** (`xaerobetterpvp`, 17
+  claves). Solo 3 cadenas necesitaban retoque.
+  - «Mejor Sprint» → «Mejor sprint» (Title Case).
+  - «Objeto mano principal» / «Objeto mano secundaria» → «Objeto de mano principal» / «Objeto de
+    mano secundaria» (preposición que faltaba).
+
+### Notas
+
+- Las otras 14 etiquetas de GUI ya estaban correctas. Con esto se cierra la familia Xaero (Minimap,
+  World Map, Better PvP).
+
 ## [0.1.0-beta.19] - 2026-09-07
 
 ### Corregido
