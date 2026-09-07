@@ -5,6 +5,42 @@ Todos los cambios notables de Mystical Realms Translation & Fixes se documentan 
 El formato sigue [Keep a Changelog](https://keepachangelog.com/en/1.1.0/)
 y el proyecto adhiere a [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.1.0-beta.5] - 2026-09-07
+
+### Añadido
+
+- **Locale español (`es_es`) para Apothic Attributes** — 161 claves, tomando como origen el
+  `en_us.json` del mod (Apothic Attributes 2.10.1). El mod trae un `es_es.json`, pero está
+  **obsoleto**: se escribió para una versión anterior y sus claves ya no coinciden con las que
+  busca la versión actual. Las 161 claves vivas caían a inglés en la partida: nombres de atributos
+  en el equipo, sus tooltips con Shift, los efectos de estado propios con sus pociones, y los
+  mensajes de muerte de combate. El pack aporta ahora esas 161 claves, fusionadas sobre el archivo
+  (desactualizado) del propio mod.
+  - **Atributos** — nombre + descripción de Perforación/Trituración de armadura y de protección,
+    Probabilidad/Daño de crítico, Daño de frío/fuego/HP actual/flecha/proyectil, Robo de vida,
+    Sobrecuración, Salud fantasma, Velocidad de tensado/minado, Velocidad de flecha, Probabilidad
+    de esquiva, Experiencia/Curación recibida, Reducción de enfriamiento, Vuelo con élitros/creativo.
+  - **Descripciones de atributos vanilla y de NeoForge** — las líneas `.desc` de Armadura, Daño/
+    Velocidad/Empuje de ataque, Suerte, Salud máxima, Velocidad de movimiento, Alcance de bloques/
+    entidades, Altura de escalón, Velocidad de nado, Gravedad, y los efectos de poción vanilla.
+  - **Efectos de estado propios** — Sangrado, Vitalidad desbordante, Conocimiento antiguo, Heridas
+    graves, Resquebrajadura, Detonación, Vuelo: nombre, tooltip y descripción del efecto, más los
+    nombres de poción / poción arrojadiza / poción persistente / flecha con punta de cada uno.
+  - **Mensajes de muerte** — fuentes de daño por Sangrado, Detonación, HP actual, Fuego y Frío
+    (variantes con objeto y con jugador).
+  - **Pantalla de atributos** — cadenas de la GUI (Mantén Shift, base, mín, máx, modificadores,
+    fórmula).
+
+### Notas
+
+- La terminología se alineó, donde el archivo obsoleto del mod aún tenía español utilizable, con
+  sus decisiones previas (*Sundering* → «Resquebrajadura», *Knowledge* → «Sabiduría», *Bleeding*
+  → «Sangrado»).
+- Se conservan literalmente el glifo de enfriamiento `⌛`, todos los especificadores de formato
+  `%s` / `%1$s` y los nombres propios del estilo *Eterna / Quanta / Arcana*.
+- Traducción hecha con OpenCode (MiMo-V2.5); integridad de claves, placeholders y validez JSON
+  verificados con script.
+
 ## [0.1.0-beta.4] - 2026-09-04
 
 ### Añadido
