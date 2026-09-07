@@ -5,6 +5,21 @@ Todos los cambios notables de Mystical Realms Translation & Fixes se documentan 
 El formato sigue [Keep a Changelog](https://keepachangelog.com/en/1.1.0/)
 y el proyecto adhiere a [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.1.0-beta.25] - 2026-09-07
+
+### Corregido
+
+- **Repaso de calidad del `es_es` de beta.1 — lote 20: Deeper Darker** (`deeperdarker`, 136 claves).
+  Ya estaba limpio; un único arreglo.
+  - «Transmisor de sculk púrpura» → «Transmisor de sculk morado» (nombre de color vanilla).
+
+### Notas
+
+- Comprobado contra el `es_es` propio de Deeper Darker: *Resonarium* → «resonario», *sculk* en
+  minúscula, *warden* conservado — todo ya consistente. *Block of Lite* es un nombre de broma
+  intencional y se mantiene.
+- Claves y placeholders intactos.
+
 ## [0.1.0-beta.24] - 2026-09-07
 
 ### Corregido
