@@ -5,6 +5,26 @@ Todos los cambios notables de Mystical Realms Translation & Fixes se documentan 
 El formato sigue [Keep a Changelog](https://keepachangelog.com/en/1.1.0/)
 y el proyecto adhiere a [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.1.0-beta.12] - 2026-09-07
+
+### Corregido
+
+- **Repaso de calidad del `es_es` de beta.1 — lote 7: últimos add-ons de Ars Nouveau**
+  (`ars_creo`, `ars_elemental`).
+  - **Ars Creo** (8 de 18 cadenas): tildes restauradas en las páginas de guía («visualizacion» →
+    «visualización», «aumentara» → «aumentará», «tuberias» → «tuberías», «Basica» → «básica»);
+    Title Case inglés eliminado («Torreta de Hechizos» → «Torreta de hechizos», «Cantidad de
+    Fuente» → «Cantidad de fuente», «Tanque de Fluidos» → «Tanque de fluidos»); el párrafo
+    `page.behaviors` reescrito en español fluido.
+  - **Ars Elemental**: revisado — su única cadena (descripción del encantamiento *soulbound*) ya
+    era correcta; sin cambios.
+
+### Notas
+
+- Claves y placeholders `%s` intactos. `itemGroup.ars_creo.general` se mantiene «Ars Creo» (marca).
+- Lote lo bastante pequeño para arreglarlo y verificarlo a mano contra el `en_us` y
+  `docs/GLOSARIO_ES.md`.
+
 ## [0.1.0-beta.11] - 2026-09-07
 
 ### Corregido
