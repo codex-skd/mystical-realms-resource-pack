@@ -5,6 +5,23 @@ Todos los cambios notables de Mystical Realms Translation & Fixes se documentan 
 El formato sigue [Keep a Changelog](https://keepachangelog.com/en/1.1.0/)
 y el proyecto adhiere a [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.1.0-beta.31] - 2026-09-08
+
+### Corregido
+
+- **Repaso de calidad del `es_es` de beta.1 — lote 26: Dawn of Time** (`dawnoftimebuilder`, 275
+  claves). Ya estaba limpio; 3 arreglos.
+  - El nombre del mod *Dawn of Time* estaba traducido como «Amanecer del Tiempo» en el objeto
+    insignia, el título del logro raíz y su descripción → revertido a «Dawn of Time» para concordar
+    con el `es_es` propio del mod (que lo deja sin traducir).
+
+### Notas
+
+- Los 200 nombres de bloque ya estaban en español de España natural («Escaleras de tapial y
+  enlucido blanco», «Columna de piedra revocada amarilla»…). Nombres propios (Puuc, la Gran
+  Muralla, General Kenoblocki, Marte, Roma, Quetzalcóatl) conservados.
+- Claves y placeholders intactos.
+
 ## [0.1.0-beta.30] - 2026-09-07
 
 ### Corregido
