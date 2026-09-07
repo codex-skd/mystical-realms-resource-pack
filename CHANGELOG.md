@@ -5,6 +5,22 @@ Todos los cambios notables de Mystical Realms Translation & Fixes se documentan 
 El formato sigue [Keep a Changelog](https://keepachangelog.com/en/1.1.0/)
 y el proyecto adhiere a [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.1.0-beta.36] - 2026-09-08
+
+### Eliminado
+
+- **Carpetas de locale es_es de 12 mods que ya no están en el modpack Mystical Realms**:
+  `arssophisticatedcompat`, `ascendant_spawners`, `caravans`, `common_toolkit`, `configured`,
+  `guardvillagers`, `horde_hoard`, `inventoryessentials`, `mowzies_cataclysm`, `mowziesmobs`,
+  `obscure_tooltips`, `player_activity_view`.
+- Venían arrastradas de la auditoría de beta.1. Minecraft ignora los `lang` de namespaces sin mod,
+  así que en el juego no cambia nada — solo quita ~350 claves sin uso y mantiene el repo honesto.
+
+### Notas
+
+- Los 93 namespaces restantes se verificaron contra los jars del modpack actual. El QA de
+  traducción por tandas (betas 6-35) sigue sobre los namespaces vivos.
+
 ## [0.1.0-beta.35] - 2026-09-08
 
 ### Corregido
