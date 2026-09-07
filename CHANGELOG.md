@@ -5,6 +5,29 @@ Todos los cambios notables de Mystical Realms Translation & Fixes se documentan 
 El formato sigue [Keep a Changelog](https://keepachangelog.com/en/1.1.0/)
 y el proyecto adhiere a [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.1.0-beta.15] - 2026-09-07
+
+### Corregido
+
+- **Repaso de calidad del `es_es` de beta.1 — lote 10: Quark** (`quark`, 324 claves, 214 reescritas).
+  - **Title Case inglés eliminado** en todos los nombres de bloque, objeto, etiquetas de pestaña y
+    colores de runa (~114 de las 324 cadenas): «Cofre de Botín de Roble Oscuro» → «Cofre de botín
+    de roble oscuro», «Lámpara de Corindón Negro» → «Lámpara de corindón negro», «Grabado Rúnico
+    Azul Claro» → «Grabado rúnico azul claro».
+  - **Terminología vanilla:** «del Inframundo» → «del Nether» / «ladrillos del Nether»; «Purpura» →
+    «purpur»; «Selva» → «jungla»; «fruta chorus» → «fruta de coro»; «púrpura» → «morado»;
+    «Plantilla de Herrero» → «Plantilla de herrería»; «Enderdragón».
+  - **Texto de pistas de JEI** pulido a español de España fluido (comas/puntos y coma en listas,
+    MT forzado reescrito).
+
+### Notas
+
+- Claves y todos los `%s` / `\n` intactos. Nombres de autor (AmyMialee, DJBaphomet, Shiba) y la
+  criatura *Oretoise* se mantienen; `itemGroup` sigue «Quark».
+- Pasada en dos trozos con OpenCode (MiMo-V2.5 para el texto de pistas) más normalización de
+  casing/terminología por script para los nombres de bloque y objeto; integridad de claves,
+  placeholders y Title Case residual verificados con script tras el merge.
+
 ## [0.1.0-beta.14] - 2026-09-07
 
 ### Corregido
