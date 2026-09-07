@@ -5,6 +5,27 @@ Todos los cambios notables de Mystical Realms Translation & Fixes se documentan 
 El formato sigue [Keep a Changelog](https://keepachangelog.com/en/1.1.0/)
 y el proyecto adhiere a [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.1.0-beta.29] - 2026-09-07
+
+### Corregido
+
+- **Repaso de calidad del `es_es` de beta.1 — lote 24: Armor of the Ages** (`armoroftheages`, 161
+  claves, 101 reescritas).
+  - **Title Case inglés eliminado** de las 134 etiquetas de opción de config («Durabilidad del
+    Sombrero de Bambú» → «Durabilidad del sombrero de bambú», «Defensa de Casco de Placa de Hierro»
+    → «Defensa de casco de placa de hierro», «Tipo de Cuerpo» → «Tipo de cuerpo») y los 27 nombres
+    de bonus de conjunto («Mariposa Nocturna» → «Mariposa nocturna», «Hombre de Acero» → «Hombre de
+    acero»).
+  - Nombres de armadura japonesa *O-Yoroi* y *Do-Maru* conservados intactos (la pasada de
+    sentence-case había bajado la «Do»).
+
+### Notas
+
+- Claves y todos los `%s` / código `§` intactos. Nombres propios de conjunto (O-Yoroi, Do-Maru,
+  Aurum Exaltado, Faraón, Centurión) y la leyenda de colores de nivel de material en la cabecera de
+  la config conservados.
+- Normalizado por script; verificado con script.
+
 ## [0.1.0-beta.28] - 2026-09-07
 
 ### Corregido
