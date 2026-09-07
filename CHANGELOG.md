@@ -5,6 +5,26 @@ Todos los cambios notables de Mystical Realms Translation & Fixes se documentan 
 El formato sigue [Keep a Changelog](https://keepachangelog.com/en/1.1.0/)
 y el proyecto adhiere a [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.1.0-beta.28] - 2026-09-07
+
+### Corregido
+
+- **Repaso de calidad del `es_es` de beta.1 — lote 23: L_Ender's Cataclysm** (`cataclysm`, 61
+  claves, 16 reescritas). Casi todo son subtítulos, que ya estaban bien.
+  - **Nombres de jefe / mob alineados con el `es_es` propio de Cataclysm:** *Ancient / Modern
+    Remnant* estaba como «Resto Antiguo / Moderno» → «Remanente Antiguo / moderno»; el subtítulo de
+    *Coral Golem* «El Gólem de Coral» → «El gólem de coral» (concuerda con el nombre de la entidad).
+  - **Resto en inglés:** «Aparecen Halberds Fantasma» → «Aparecen alabardas fantasma».
+  - **Title Case:** «Cerca de Obsidiana» → «Cerca de obsidiana», «Monstruosidad de Netherita
+    Antigua» → «Monstruosidad de netherita antigua», «Cúmulo de Amatista» → «Cúmulo de amatista»,
+    «Comprobar Enlace» → «Comprobar enlace», y las cadenas del aviso de MakeShip.
+
+### Notas
+
+- Claves y todos los `%s` intactos. Nombres de criatura nórdicos (Draugr, Aptrgangr) y de jefe
+  (Maledictus, Ignis, Ceraunus) conservados.
+- Arreglado por script; verificado con script.
+
 ## [0.1.0-beta.27] - 2026-09-07
 
 ### Corregido
