@@ -5,6 +5,31 @@ Todos los cambios notables de Mystical Realms Translation & Fixes se documentan 
 El formato sigue [Keep a Changelog](https://keepachangelog.com/en/1.1.0/)
 y el proyecto adhiere a [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.1.0-beta.8] - 2026-09-07
+
+### Corregido
+
+- **Repaso de calidad del `es_es` de beta.1 — lote 3: Every Compat** (`everycomp`, 1179 claves).
+  El `es_es` de este namespace estaba bien en general; solo 29 cadenas necesitaban arreglo.
+  - **Palabras inventadas:** «rejerada / rejerado» (no existe, de *barred*) → «enrejada / enrejado»
+    en todas las puertas, trampillas y cristales con barrotes de Chipped y Macaw's; «waffle» →
+    «gofre»; «Tronso» (errata) → «Tronco».
+  - **Restos en inglés traducidos:** los nombres de madera/hojas del árbol *blossom* de Quark
+    (*Trumpet*, *Frosty / Serene / Warm / Sweet / Sunny / Fiery Trumpet*) → «Trompeta», «Trompeta
+    gélida / serena / cálida / dulce / soleada / ardiente»; *Trellis* → «Celosía».
+  - **Términos vanilla:** *blackstone* / *deepslate* sin traducir en dos encimeras → «piedra negra»
+    / «pizarra profunda».
+  - Correcciones menores de gramática en tres descripciones de configuración y en la pantalla de
+    error de carga; concordancia («Tablones trenzado» → «trenzados»).
+
+### Notas
+
+- Claves y todos los `%s` intactos; 1150 cadenas ya estaban bien. `itemGroup.everycomp` se mantiene
+  «Every Compat» (marca).
+- Pasada en tres trozos con OpenCode (MiMo-V2.5) contra `docs/GLOSARIO_ES.md` y el `es_es` vanilla
+  1.21.1; integridad de claves, placeholders, Title Case residual y restos en inglés verificados
+  con script tras el merge.
+
 ## [0.1.0-beta.7] - 2026-09-07
 
 ### Corregido
