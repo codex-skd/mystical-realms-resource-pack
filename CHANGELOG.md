@@ -5,6 +5,29 @@ Todos los cambios notables de Mystical Realms Translation & Fixes se documentan 
 El formato sigue [Keep a Changelog](https://keepachangelog.com/en/1.1.0/)
 y el proyecto adhiere a [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.1.0-beta.16] - 2026-09-07
+
+### Corregido
+
+- **Repaso de calidad del `es_es` de beta.1 — lote 11: Create** (`create`, 178 claves, 141
+  reescritas).
+  - **Title Case inglés eliminado** de las etiquetas de tag de objeto comunes que son casi todo el
+    archivo («Lingotes de Aluminio» → «Lingotes de aluminio», «Bloques de Almacenamiento de Azogue»
+    → «Bloques de almacenamiento de azogue», «No Erguidos en Cintas» → «No erguidos en cintas»).
+  - **«Raw ... ores»:** «Minerales de Uranio Brutos» → «Minerales de uranio en bruto».
+  - **Terminología alineada con el `es_es` propio de Create:** *Stock Keeper* (que el MT dejó en
+    inglés) → «Encargado del almacén»; *Recipe Viewer* → «visor de recetas» en las descripciones de
+    sincronización con JEI.
+  - El nombre del mod *Create* se mantiene en mayúscula («Lingotes de Create»).
+
+### Notas
+
+- Claves y todos los `%1$s` / `\n` intactos; las cadenas vacías de las herramientas de esquema se
+  dejan vacías. Nombres de teclas modificadoras (Alt, Ctrl, Shift) conservados.
+- Nombres normalizados por script (casing + terminología); las pocas descripciones de GUI
+  comprobadas contra el inglés y el locale español propio de Create. Integridad de claves,
+  placeholders y Title Case residual verificados con script.
+
 ## [0.1.0-beta.15] - 2026-09-07
 
 ### Corregido
