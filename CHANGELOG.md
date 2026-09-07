@@ -5,6 +5,32 @@ Todos los cambios notables de Mystical Realms Translation & Fixes se documentan 
 El formato sigue [Keep a Changelog](https://keepachangelog.com/en/1.1.0/)
 y el proyecto adhiere a [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.1.0-beta.6] - 2026-09-07
+
+### Corregido
+
+- **Repaso de calidad del `es_es` de beta.1 — lote 1: Waystones** (190 de 263 cadenas reescritas).
+  La traducción automática original tenía errores de criterio; este es el primer lote de una pasada
+  por tandas contra un glosario ratificado (`docs/GLOSARIO_ES.md`).
+  - **«Mojón» eliminado.** La MT traducía *Waystone* como «mojón» (vulgar en España). Por decisión
+    del proyecto, *Waystone* se mantiene sin traducir, igual que la familia `-stone` (*Portstone*,
+    *Sharestone*, *Warpstone*). Lo descriptivo sí se traduce: *Warp Plate* → «Placa de traslado»,
+    *Warp Portal* → «Portal de traslado», *Bound / Return Scroll* → «Pergamino vinculado / de regreso».
+  - **Terminología vanilla.** *Blackstone* «Negrita» → «piedra negra»; *Nether* «Inframundo» →
+    «Nether»; *Ender* «del Fin» → «del End»; nombres de color alineados con el `es_es` vanilla
+    (light blue → «azul claro», etc.).
+  - **Capitalización española.** Eliminado el *Title Case* inglés de todos los nombres de bloque,
+    objeto y GUI («Piedra de Puerto Azul Claro» → «Portstone azul claro»).
+  - **Concordancia de género.** Toda la familia `-stone` concuerda ahora en femenino («la Waystone»,
+    «las Waystones activadas», «Portstone amarilla»).
+
+### Notas
+
+- Claves, placeholders (`%s`, `%d`, `%1$s`) y códigos de formato intactos; solo se tocaron valores.
+  73 cadenas ya estaban correctas y se dejaron igual.
+- Pasada con OpenCode (MiMo-V2.5) contra el glosario, con el `es_es` vanilla 1.21.1 como referencia;
+  integridad de claves, placeholders y concordancia verificados con script.
+
 ## [0.1.0-beta.5] - 2026-09-07
 
 ### Añadido
