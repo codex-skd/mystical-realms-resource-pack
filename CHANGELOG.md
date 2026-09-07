@@ -5,6 +5,22 @@ Todos los cambios notables de Mystical Realms Translation & Fixes se documentan 
 El formato sigue [Keep a Changelog](https://keepachangelog.com/en/1.1.0/)
 y el proyecto adhiere a [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.1.0-beta.39] - 2026-09-08
+
+### Corregido
+
+- **Repaso de calidad del `es_es` de beta.1 — lote 33: Aquaculture** (`aquaculture`, 30 claves, 24
+  reescritas).
+  - **Title Case inglés eliminado** de los subtítulos de sonido y los tags de objeto, siguiendo el
+    estilo vanilla de subtítulos («El Pez nada» → «El pez nada», «La Caja de Pesca se abre» → «La
+    caja de pesca se abre», «Soporte de Peces roto» → «Soporte de peces roto», «Lingotes de
+    Neptunio» → «Lingotes de neptunio»).
+  - «Caja de Pesca Tinte Verde» reescrito a «Tinte verde para caja de pesca».
+
+### Notas
+
+- Claves y placeholders intactos.
+
 ## [0.1.0-beta.38] - 2026-09-08
 
 ### Corregido
