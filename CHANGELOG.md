@@ -5,6 +5,29 @@ Todos los cambios notables de Mystical Realms Translation & Fixes se documentan 
 El formato sigue [Keep a Changelog](https://keepachangelog.com/en/1.1.0/)
 y el proyecto adhiere a [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.1.0-beta.21] - 2026-09-07
+
+### Corregido
+
+- **Repaso de calidad del `es_es` de beta.1 — lote 16: BetterEnd** (`betterend`, 367 claves, 131
+  reescritas).
+  - **Nombres de materiales inventados alineados con el `es_es` propio de BetterEnd** para que
+    bloques y objetos concuerden entre menús: *Aeternium* → «Aeternio», *Terminite* → «Terminita»,
+    *Thallasium* → «Talismanio», *Violecite* → «Violecita», *Flavolite* → «Flavolita»,
+    *Pythadendron* → «Fitadendrón», *Hydralux* → «Hidrálux».
+  - **Término vanilla:** *End Stone* estaba como «piedra del Fin» → «piedra del End»; «Herrero del
+    Fin» → «Herrero del End»; «un mejor Fin» → «un mejor End».
+  - **Title Case inglés eliminado** de nombres de bloque / objeto / logro, manteniendo en mayúscula
+    el nombre del mod *BetterEnd* y los nombres de material inventados.
+
+### Notas
+
+- Claves y todos los `%s` / `\n` intactos. Nombres de discos de música (noqwww — …) conservados.
+  El locale propio de BetterEnd es también una traducción automática tosca; solo se alinearon los
+  términos de material recurrentes, el resto se dejó en español de España con minúscula de frase.
+- Verificado con script: integridad de claves, placeholders, Title Case residual, consistencia de
+  términos.
+
 ## [0.1.0-beta.20] - 2026-09-07
 
 ### Corregido
