@@ -5,6 +5,25 @@ Todos los cambios notables de Mystical Realms Translation & Fixes se documentan 
 El formato sigue [Keep a Changelog](https://keepachangelog.com/en/1.1.0/)
 y el proyecto adhiere a [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.1.0-beta.26] - 2026-09-07
+
+### Corregido
+
+- **Repaso de calidad del `es_es` de beta.1 — lote 21: Sophisticated Backpacks**
+  (`sophisticatedbackpacks`, 149 claves, 129 reescritas).
+  - **Title Case inglés eliminado** — eran 124 de las 149 cadenas, casi todo el archivo: nombres de
+    mejora, etiquetas de GUI, etiquetas de config y los objetos de conversión de mejora de pila
+    («Conversión de Mejora de Pila: Nivel Inicial a Nivel 1» → «Conversión de mejora de pila: nivel
+    inicial a nivel 1», «Ranuras por Fila» → «Ranuras por fila», «Objetos No Permitidos» → «Objetos
+    no permitidos»).
+  - «Mobs» en minúscula a media frase («captura de mobs»); «de la Netherita» → «de netherita».
+
+### Notas
+
+- Claves y todos los `%s` intactos. Las frases de estado / tooltip ya estaban bien.
+- Normalizado por script; integridad de claves, placeholders y Title Case residual verificados con
+  script.
+
 ## [0.1.0-beta.25] - 2026-09-07
 
 ### Corregido
