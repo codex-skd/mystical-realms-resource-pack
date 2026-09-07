@@ -5,6 +5,28 @@ Todos los cambios notables de Mystical Realms Translation & Fixes se documentan 
 El formato sigue [Keep a Changelog](https://keepachangelog.com/en/1.1.0/)
 y el proyecto adhiere a [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.1.0-beta.17] - 2026-09-07
+
+### Corregido
+
+- **Repaso de calidad del `es_es` de beta.1 — lote 12: Farmer's Delight** (`farmersdelight`, 193
+  claves, 139 reescritas).
+  - **Title Case inglés eliminado** de nombres de bloque, tags de objeto, etiquetas de config y
+    subtítulos («Cosechas de Cebolla» → «Cosechas de cebolla», «Salmón Crudo» → «Salmón crudo»,
+    «Probabilidad de Impulso de Tierra Fértil» → «Probabilidad de impulso de tierra fértil»).
+    Términos de mecánicas del mod en minúscula en la prosa de config («la Olla de Cocina», «la
+    Parra de Tomate», «el Mercader Errante»).
+  - **Término vanilla:** *Sign* estaba como «Señal» en todos los bloques de cartel de lienzo →
+    corregido a «Cartel» (es_es vanilla) para los ~40 carteles de pared / colgantes.
+  - **MT literal:** «pozos de botín» (loot pools) → «grupos de botín».
+
+### Notas
+
+- Claves y todos los `%s` / `\n` / código `§l` intactos. Las descripciones de config ya estaban
+  bien y se dejaron salvo el casing de términos.
+- Normalizado por script (casing + terminología); integridad de claves, placeholders y Title Case
+  residual verificados con script.
+
 ## [0.1.0-beta.16] - 2026-09-07
 
 ### Corregido
