@@ -5,6 +5,27 @@ Todos los cambios notables de Mystical Realms Translation & Fixes se documentan 
 El formato sigue [Keep a Changelog](https://keepachangelog.com/en/1.1.0/)
 y el proyecto adhiere a [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.1.0-beta.34] - 2026-09-08
+
+### Corregido
+
+- **Repaso de calidad del `es_es` de beta.1 — lote 29: Bookshelf** (`bookshelf`, 208 claves, 125
+  reescritas).
+  - **Restos en inglés traducidos:** las entradas de comentario de sección («Names of the months» →
+    «Nombres de los meses», «The names of different moon phases…» → «Los nombres de las distintas
+    fases lunares…», «Command Text» → «Texto de comandos», etc.).
+  - **Illagers (glosario):** «Alfabeto de los Pillagers» → «Alfabeto illager»; «por los pillagers» →
+    «por los illagers»; «Avanposto de Pillagers» → «Puesto de avanzada saqueador» (además «Avanposto»
+    no era ni español).
+  - **Title Case inglés eliminado** de los nombres de tabla de botín, fases lunares, nombres de día
+    / mes y etiquetas de pestaña de creativo («Luna Llena» → «Luna llena», «Ruina Oceánica - Fría» →
+    «Ruina oceánica - fría», «Pestaña de Bloques de Color» → «Pestaña de bloques de color»). *Templo
+    de la Selva* → *Templo de la jungla* (vanilla).
+
+### Notas
+
+- Claves y todos los `%s` intactos. La pasada de sentence-case protegió la letra tras `¿`/`¡`.
+
 ## [0.1.0-beta.33] - 2026-09-08
 
 ### Corregido
