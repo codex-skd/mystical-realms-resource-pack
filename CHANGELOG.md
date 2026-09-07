@@ -5,6 +5,22 @@ Todos los cambios notables de Mystical Realms Translation & Fixes se documentan 
 El formato sigue [Keep a Changelog](https://keepachangelog.com/en/1.1.0/)
 y el proyecto adhiere a [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.1.0-beta.30] - 2026-09-07
+
+### Corregido
+
+- **Repaso de calidad del `es_es` de beta.1 — lote 25: Enchantment Descriptions** (`enchdesc`, 151
+  claves). Ya estaba limpio; 3 arreglos.
+  - «Selector de Bloques» → «Selector de bloques» y «Gancho de Agarre» → «Gancho de agarre» dentro
+    de descripciones de encantamiento.
+  - «JEI Compat» → «Compatibilidad con JEI».
+
+### Notas
+
+- Las 148 frases de descripción de encantamiento ya estaban en español de España natural. Líneas de
+  crédito de mods con URL conservadas literalmente.
+- Claves y placeholders intactos.
+
 ## [0.1.0-beta.29] - 2026-09-07
 
 ### Corregido
