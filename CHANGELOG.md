@@ -5,6 +5,24 @@ Todos los cambios notables de Mystical Realms Translation & Fixes se documentan 
 El formato sigue [Keep a Changelog](https://keepachangelog.com/en/1.1.0/)
 y el proyecto adhiere a [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.1.0-beta.32] - 2026-09-08
+
+### Corregido
+
+- **Repaso de calidad del `es_es` de beta.1 — lote 27: Moonlight Lib** (`moonlight`, 239 claves, 100
+  reescritas).
+  - **Title Case inglés eliminado** de las etiquetas de la pantalla de config y las opciones de
+    depuración «test» («Mods Configurables» → «Mods configurables», «Selector de Color» → «Selector
+    de color», «Control Deslizante Doble de Prueba» → «Control deslizante doble de prueba», «Discord
+    del Mod» → «Discord del mod»).
+  - **«Youtube» → «YouTube».** Nombres de marca (Twitter, Discord, Patreon, CurseForge, Modrinth)
+    conservados.
+
+### Notas
+
+- La pasada de sentence-case también protegió la letra tras `¿`/`¡` y el emoticono `:D`.
+- Claves y todos los `%s` / `%1$s` intactos.
+
 ## [0.1.0-beta.31] - 2026-09-08
 
 ### Corregido
