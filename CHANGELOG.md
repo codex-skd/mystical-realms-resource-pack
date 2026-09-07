@@ -5,6 +5,25 @@ Todos los cambios notables de Mystical Realms Translation & Fixes se documentan 
 El formato sigue [Keep a Changelog](https://keepachangelog.com/en/1.1.0/)
 y el proyecto adhiere a [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.1.0-beta.37] - 2026-09-08
+
+### Corregido
+
+- **Repaso de calidad del `es_es` de beta.1 — lote 31: Aquamirae** (`aquamirae`, 31 claves, 18
+  reescritas).
+  - **«biosomas» → «biomas»** — el MT se inventó una no-palabra para *biomes* en las opciones de la
+    estructura Laberinto de Hielo.
+  - **Title Case inglés eliminado** de las etiquetas de config, el título de logro y el nombre de
+    objeto («Más Allá del Abismo» → «Más allá del abismo», «Probabilidad de Crítico» → «Probabilidad
+    de crítico», «Barco Pirata (Estructura)» → «Barco pirata (estructura)», «Espaciado de
+    Colocación» → «Espaciado de colocación»).
+
+### Notas
+
+- Los tooltips de lore y las descripciones largas de estructuras ya estaban en español de España
+  excelente. Nombres inventados (Shipbreaker → «Rompebarcos», Capitán Cornelia) conservados.
+- Claves y todos los `%s` / código `§` intactos.
+
 ## [0.1.0-beta.36] - 2026-09-08
 
 ### Eliminado
