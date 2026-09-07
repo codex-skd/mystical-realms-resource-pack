@@ -5,6 +5,26 @@ Todos los cambios notables de Mystical Realms Translation & Fixes se documentan 
 El formato sigue [Keep a Changelog](https://keepachangelog.com/en/1.1.0/)
 y el proyecto adhiere a [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.1.0-beta.22] - 2026-09-07
+
+### Corregido
+
+- **Repaso de calidad del `es_es` de beta.1 — lote 17: Just Enough Items** (`jei`, 188 claves, 89
+  reescritas).
+  - **Title Case inglés eliminado** de las etiquetas de config y nombres de atajo que son casi todo
+    el archivo («Siguiente Receta» → «Siguiente receta», «Mostrar Marcadores de JEI» → «Mostrar
+    marcadores de JEI», «Cerrar GUI de Recetas» → «Cerrar GUI de recetas», «Alineación Vertical» →
+    «Alineación vertical»). *JEI* y *GUI* en mayúscula.
+  - **«Trampear»:** los atajos de modo trampa «Trampear 1 Objeto / Pila» → «Hacer trampa con 1
+    objeto / pila».
+
+### Notas
+
+- Claves y todos los `%s` intactos. Las descripciones de opciones de config ya estaban bien.
+  Atajos en mayúsculas (RIGHT-CLICK → CLIC DERECHO) conservados.
+- Normalizado por script; integridad de claves, placeholders y Title Case residual verificados con
+  script.
+
 ## [0.1.0-beta.21] - 2026-09-07
 
 ### Corregido
