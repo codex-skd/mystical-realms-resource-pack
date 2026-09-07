@@ -62,7 +62,7 @@
   "jade.access.block.bites": "Bocados: %s",
   "jade.access.block.facing": "Orientación: %s",
   "jade.access.block.redstone_wire": "Forma: %s",
-  "jade.access.block.redstone_wire.dot": "Forma: Punto",
+  "jade.access.block.redstone_wire.dot": "Forma: punto",
   "config.jade.plugin_jade_access.entity": "Detalles de la entidad",
   "jade.access.creeper.powered": "Cargado %s",
   "jade.access.zombie_villager.curing": "Curando %s",

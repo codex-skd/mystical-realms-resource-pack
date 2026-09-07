@@ -5,6 +5,21 @@ Todos los cambios notables de Mystical Realms Translation & Fixes se documentan 
 El formato sigue [Keep a Changelog](https://keepachangelog.com/en/1.1.0/)
 y el proyecto adhiere a [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.1.0-beta.24] - 2026-09-07
+
+### Corregido
+
+- **Repaso de calidad del `es_es` de beta.1 — lote 19: Jade** (`jade`, 105 claves). Ya estaba
+  limpio; un único arreglo.
+  - «Forma: Punto» → «Forma: punto» (Title Case).
+
+### Notas
+
+- Las 60 cadenas de accesibilidad / lector de pantalla («Cerrado %s», «Encendido %s»…) se revisaron
+  y se dejaron con el estado primero, que coincide con el inglés y evita problemas de concordancia
+  de género con el nombre de bloque sustituido.
+- Claves y placeholders intactos.
+
 ## [0.1.0-beta.23] - 2026-09-07
 
 ### Corregido
