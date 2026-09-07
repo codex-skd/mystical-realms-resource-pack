@@ -5,6 +5,23 @@ Todos los cambios notables de Mystical Realms Translation & Fixes se documentan 
 El formato sigue [Keep a Changelog](https://keepachangelog.com/en/1.1.0/)
 y el proyecto adhiere a [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.1.0-beta.38] - 2026-09-08
+
+### Corregido
+
+- **Repaso de calidad del `es_es` de beta.1 — lote 32: Aquaculture Delight** (`aquaculturedelight`,
+  34 claves, 11 reescritas).
+  - **«surullito» → «rollito»** — el MT usó un regionalismo caribeño para *roll*. *Crispy Roll
+    Medley* → «Surtido de rollitos crujientes», *Fried Perch Roll* → «Rollito de perca frita», etc.
+  - **«Sargo» → «Abadejo»** para *Pollock* (el sargo es otro pez).
+
+### Notas
+
+- Los otros 23 nombres de plato ya estaban en español de España excelente («Perca frita crujiente»,
+  «Fletán con salsa tártara», «Chorba de pescado»…). Nombres propios de preparación de pescado
+  (Buckling, Rollmops, Halászlé) conservados.
+- Claves y todos los códigos `§` intactos.
+
 ## [0.1.0-beta.37] - 2026-09-08
 
 ### Corregido
