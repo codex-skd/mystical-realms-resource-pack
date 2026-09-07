@@ -5,6 +5,33 @@ Todos los cambios notables de Mystical Realms Translation & Fixes se documentan 
 El formato sigue [Keep a Changelog](https://keepachangelog.com/en/1.1.0/)
 y el proyecto adhiere a [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.1.0-beta.11] - 2026-09-07
+
+### Corregido
+
+- **Repaso de calidad del `es_es` de beta.1 — lote 6: Ars Nouveau — Additions** (`ars_additions`,
+  235 claves, 139 reescritas).
+  - **Title Case inglés eliminado** de todos los nombres de bloque, objeto y tooltip («Piedra de
+    Fuente Pulida Agrietada» → «Piedra de fuente pulida agrietada»; «Muro de Piedra de Fuente» →
+    «Muro de piedra de fuente»), con el orden de adjetivo español restaurado («Grandes Ladrillos»
+    → «ladrillos grandes»).
+  - **«Warp» unificado a «traslado»** (glosario): el MT mezclaba «teletransporte» — ahora *Warp
+    Portal* → «portal de traslado», *Warp Scroll* → «pergamino de traslado», etc.
+  - **Terminología (glosario §2.2):** *Sourcestone* → «piedra de fuente» (minúscula, consistente);
+    *Archwood* nunca «arcano»; el glifo *Recall* → «Retorno». *Scribes Table* se mantiene «Mesa de
+    Escriba» (acorde al locale del propio Ars Nouveau).
+  - **MT literal arreglado:** «maná worth» → «100 maná»; «pool» → «reserva»; «carga chunks
+    forzadamente» → «fuerza la carga de los chunks cercanos»; «Antiguo Mago» → «mago antiguo».
+    Registro a español de España («coste», no «costo»).
+
+### Notas
+
+- Claves y todos los `%s` / `%d` intactos. Nombres propios en mayúscula (Nexus, End, Archwood,
+  Magebloom, Wilden, Starbuncle, Nether).
+- Pasada con OpenCode (LongCat-2.0, en sustitución de MiMo-V2.5) contra `docs/GLOSARIO_ES.md` y el
+  `es_es` vanilla 1.21.1; integridad de claves, placeholders y Title Case residual verificados con
+  script.
+
 ## [0.1.0-beta.10] - 2026-09-07
 
 ### Corregido
