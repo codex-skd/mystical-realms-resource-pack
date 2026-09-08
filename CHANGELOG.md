@@ -5,6 +5,20 @@ Todos los cambios notables de Mystical Realms Translation & Fixes se documentan 
 El formato sigue [Keep a Changelog](https://keepachangelog.com/en/1.1.0/)
 y el proyecto adhiere a [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.1.0-beta.41] - 2026-09-08
+
+### Corregido
+
+- **Repaso de calidad del `es_es` de beta.1 — lote 35: Relics** (`relics`, 15 claves). Ya estaba
+  limpio; 1 arreglo.
+  - *Unholiness* «Maldad» → «Impiedad» en la habilidad Fe del Relicario Sagrado, para concordar con
+    el `es_es` propio de Relics (que empareja «Santidad / Impiedad»).
+
+### Notas
+
+- Las otras 14 cadenas (descripciones de habilidad, fuentes de nivel, atajos) ya estaban en español
+  de España natural con todos los placeholders `%1$s%%` / `%2$s` / `%3$s` correctos.
+
 ## [0.1.0-beta.40] - 2026-09-08
 
 ### Corregido

@@ -1,6 +1,6 @@
 {
   "tooltip.relics.holy_locket.ability.faith": "Fe",
-  "tooltip.relics.holy_locket.ability.faith.description": "Tiene 2 modos activables: Santidad y Maldad. En el modo rojo de Santidad, roba %1$s%% de la curación de entidades visibles dentro de un radio de %3$s bloques y la transfiere al portador del relicario. En el modo azul de Maldad, inflige daño a todas las entidades visibles dentro del mismo radio igual a %2$s%% de la curación recibida por el portador del relicario.",
+  "tooltip.relics.holy_locket.ability.faith.description": "Tiene 2 modos activables: Santidad y Impiedad. En el modo rojo de Santidad, roba %1$s%% de la curación de entidades visibles dentro de un radio de %3$s bloques y la transfiere al portador del relicario. En el modo azul de Impiedad, inflige daño a todas las entidades visibles dentro del mismo radio igual a %2$s%% de la curación recibida por el portador del relicario.",
   "tooltip.relics.holy_locket.ability.penitence": "Penitencia",
   "tooltip.relics.holy_locket.ability.penitence.description": "Incendia enemigos no muertos durante 10 segundos y aumenta el daño infligido a ellos en un %1$s%%.",
   "tooltip.relics.holy_locket.ability.ascension": "Ascensión",
