@@ -5,6 +5,46 @@ Todos los cambios notables de Mystical Realms Translation & Fixes se documentan 
 El formato sigue [Keep a Changelog](https://keepachangelog.com/en/1.1.0/)
 y el proyecto adhiere a [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.1.0-beta.46] - 2026-09-08
+
+### Corregido
+
+- **Repaso de calidad del `es_es` de beta.1 — lote 39: namespaces pequeños en un solo lote**
+  (12 namespaces con cambios de un total de 34 revisados).
+  - **Balm** (`balm`, 26 claves): Title Case inglés eliminado de las etiquetas `c:*` («Tintes
+    Negros» → «Tintes negros», «Lingotes de Hierro» → «Lingotes de hierro»…), *purple* alineado con
+    vanilla («Tintes Púrpura» → «Tintes morados») y acentos restaurados en los mensajes de
+    desconexión («instalalo» → «instálalo», «version» → «versión», «tu tienes» → «tú tienes»).
+  - **Not Enough Crashes** (`notenoughcrashes`, 7 claves): Title Case en las etiquetas de config
+    («Capturar Cierres de Inicialización» → «Capturar cierres de inicialización», «Límite de
+    Cierres» → «Límite de cierres», «Volver al Menú Principal» → «Volver al menú principal»…).
+  - **wover-generator** (`wover-generator`, 10 claves): «del Fin» → «del End», «del Inframundo» →
+    «del Nether», «Mundo Superior» → «mundo superior» y los títulos `title.wover.the_end/the_nether`
+    a «End»/«Nether».
+  - **YUNG's Better End Island** (`betterendisland`, 7 claves): «en el Fin»/«del Fin» → «del End»,
+    «Ender Dragón» → «Enderdragón».
+  - **Zeta** (`zeta`, 4): Title Case en los botones de config («Guardar Cambios» → «Guardar
+    cambios»…, «Sub Categorías» → «Subcategorías»).
+  - **Iris/NeOculus** (`iris`, 2): «Espacio de Color» → «Espacio de color», «Distancia de
+    Renderizado» → minúsculas a mitad de frase.
+  - **lionfishapi** (2), **justenoughbreeding** (2, «Duplicación de Allays» → «…allays»),
+    **irons_patreon_lib** (1, «Mesa de Transmogrificación» → «…transmogrificación»),
+    **mysticalautomation** (1, «Polvo de Hueso» → «Polvo de hueso» vanilla).
+
+### Notas
+
+- Revisados y ya limpios (sin cambios): `craftingtweaks`, `moogs_structures`, `cucumber`, `fusion`,
+  `terrablender`, `mes`, `mns`, `ars_elemental`, `idas`, `integrated_stronghold`, `just_in_nether`,
+  `better_party_x_xaeros_world_map`, `farmer_delight_pizza_lovers`, `wishfulrecipes` y 8 namespaces
+  de una sola clave (`dangerous`, `jeresources`, `justenoughprofessions`, `mysticalagriculture`,
+  `naturescompass`, `supermartijn642corelib`, `villagertradingplus`, `visualworkbench`).
+- En `idas`/`integrated_stronghold` «Cama - …» NO es un error: el `en_us` del propio mod escribe
+  «Cama» (nombre del artista). Claves y `\n` sin tocar.
+- Quedan pendientes de repaso namespaces medianos/grandes que necesitan pasada propia: `butchery`
+  (880), `sodium-extra` (342), `modernfix` (155), `spell_power` (147), `bclib` (128),
+  `farmers_sandwiches` (96), `aces_spell_utils` (91), `morevillagers` (78), `embeddium` (71),
+  `irons_lib` (70) y los `apothic_*` de la snapshot inicial.
+
 ## [0.1.0-beta.45] - 2026-09-08
 
 ### Corregido
