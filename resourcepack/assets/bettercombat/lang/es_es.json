@@ -6,7 +6,7 @@
   "text.autoconfig.bettercombat.option.client.isShowingWeaponTrails": "Mostrar estelas de golpe de arma",
   "text.autoconfig.bettercombat.option.client.isShowingWeaponTrails.@Tooltip": "Renderizar partículas de estela de arma para ataques en todas las perspectivas",
   "text.autoconfig.bettercombat.option.client.isTooltipAttackRangeReformat": "Descripción de objeto: reformatear rango vanilla",
-  "text.autoconfig.bettercombat.option.client.isTooltipAttackRangeReformat.@Tooltip": "Formatear Rango de Interacción de Entidad a Rango de Ataque",
+  "text.autoconfig.bettercombat.option.client.isTooltipAttackRangeReformat.@Tooltip": "Formatear rango de interacción de entidad a rango de ataque",
   "text.autoconfig.bettercombat.option.client.swingThruGrassBlacklist": "Lista negra de golpe a través de hierba",
   "text.autoconfig.bettercombat.option.client.swingThruGrassBlacklist.@Tooltip": "Las armas con un ID que coincida con esta regex nunca golpearán a través de hierba",
   "text.autoconfig.bettercombat.option.client.mineWithWeaponBlacklist": "Lista negra de minar con arma",
