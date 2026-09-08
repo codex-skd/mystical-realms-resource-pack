@@ -5,6 +5,22 @@ Todos los cambios notables de Mystical Realms Translation & Fixes se documentan 
 El formato sigue [Keep a Changelog](https://keepachangelog.com/en/1.1.0/)
 y el proyecto adhiere a [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.1.0-beta.42] - 2026-09-08
+
+### Corregido
+
+- **Repaso de calidad del `es_es` de beta.1 — lote 36: Sophisticated Core** (`sophisticatedcore`,
+  15 claves, 9 reescritas).
+  - **Title Case inglés eliminado** de las etiquetas de config y los detalles de botón («Posición
+    de Botones de Ordenación» → «Posición de botones de ordenación», «Reproducir Sonido de Botón» →
+    «Reproducir sonido de botón», «Debajo de las Pestañas de Mejoras» → «Debajo de las pestañas de
+    mejoras», «Fuera = Clic Izquierdo» → «Fuera = clic izquierdo»). *Mouse Tweaks* (nombre de mod)
+    conservado.
+
+### Notas
+
+- Claves y todos los `\n` intactos. La descripción de config `enabledItems` se dejó intacta.
+
 ## [0.1.0-beta.41] - 2026-09-08
 
 ### Corregido
