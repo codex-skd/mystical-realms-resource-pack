@@ -5,6 +5,23 @@ Todos los cambios notables de Mystical Realms Translation & Fixes se documentan 
 El formato sigue [Keep a Changelog](https://keepachangelog.com/en/1.1.0/)
 y el proyecto adhiere a [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.1.0-beta.43] - 2026-09-08
+
+### Eliminado
+
+- **Overlays es_es de 8 mods de Stalking Dragons** cuya traducción ahora vive en el propio mod:
+  `vellumli`, `teleport_animation`, `skd_menu`, `data_miner`, `info_tab`, `carry_mechanics`,
+  `regalia_slots_api`, `workhand_tools`.
+- Este resource pack es para mods de terceros sin es_es o con es_es parcial. Estos 8 son mods
+  nuestros — su locale español (con las correcciones del QA aplicadas) se ha commiteado al repo de
+  cada mod, así que viaja con el mod y ya no necesita overlay aquí.
+
+### Notas
+
+- Quedan 84 namespaces de terceros. El QA de traducción (betas 6-42) sigue sobre esos.
+- Hasta que cada mod afectado publique su próxima build, las claves movidas solo están en el código
+  fuente del mod; los locales que ya vienen en el jar no cambian.
+
 ## [0.1.0-beta.42] - 2026-09-08
 
 ### Corregido
