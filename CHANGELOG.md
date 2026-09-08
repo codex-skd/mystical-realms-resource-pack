@@ -5,6 +5,20 @@ Todos los cambios notables de Mystical Realms Translation & Fixes se documentan 
 El formato sigue [Keep a Changelog](https://keepachangelog.com/en/1.1.0/)
 y el proyecto adhiere a [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.1.0-beta.44] - 2026-09-08
+
+### Corregido
+
+- **Repaso de calidad del `es_es` de beta.1 — lote 37: Better Villager Animations**
+  (`bettervillageranimations`, 15 claves). Ya estaba limpio; 1 arreglo.
+  - *Farmer* «Granjero» → «Agricultor» para concordar con el nombre de profesión de aldeano del
+    `es_es` vanilla.
+
+### Notas
+
+- Los otros 12 nombres de profesión ya coincidían exactamente con vanilla (Cartógrafo, Clérigo,
+  Albañil, Peletero, Flechero…). Nombre del mod conservado.
+
 ## [0.1.0-beta.43] - 2026-09-08
 
 ### Eliminado
